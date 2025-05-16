@@ -1,1 +1,3 @@
-# blog-supporting-material
+# このリポジトリについて
+このリポジトリは以下の開発基盤ブログの補助資料を共有するために作成したリポジトリとなります。
+[開発基盤ブログ](https://blog.devplatform.techmatrix.jp/)
