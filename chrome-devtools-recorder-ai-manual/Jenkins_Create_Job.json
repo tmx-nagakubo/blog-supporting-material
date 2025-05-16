@@ -1,0 +1,264 @@
+{
+    "title": "記録（2025/5/13 12:56:23）",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1145,
+            "height": 828,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:8080/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:8080/",
+                    "title": "ダッシュボード [Jenkins]"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/新規ジョブ作成"
+                ],
+                [
+                    "#tasks > div:nth-of-type(1) a"
+                ],
+                [
+                    "xpath///*[@id=\"tasks\"]/div[1]/span/a"
+                ],
+                [
+                    "pierce/#tasks > div:nth-of-type(1) a"
+                ]
+            ],
+            "offsetY": 21.44318389892578,
+            "offsetX": 85.1988639831543,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:8080/view/all/newJob",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/ジョブ名入力"
+                ],
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ]
+            ],
+            "offsetY": 37.63636779785156,
+            "offsetX": 100.45454406738281
+        },
+        {
+            "type": "change",
+            "value": "AI手順作成",
+            "selectors": [
+                [
+                    "aria/ジョブ名入力"
+                ],
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "li.org_jenkinsci_plugins_workflow_job_WorkflowJob span"
+                ],
+                [
+                    "xpath///*[@id=\"j-add-item-type-standalone-projects\"]/ul/li[2]/div[2]/label/span"
+                ],
+                [
+                    "pierce/li.org_jenkinsci_plugins_workflow_job_WorkflowJob span"
+                ]
+            ],
+            "offsetY": 11.017059326171875,
+            "offsetX": 52.465911865234375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/OK"
+                ],
+                [
+                    "#ok-button"
+                ],
+                [
+                    "xpath///*[@id=\"ok-button\"]"
+                ],
+                [
+                    "pierce/#ok-button"
+                ],
+                [
+                    "text/OK"
+                ]
+            ],
+            "offsetY": 6.446044921875,
+            "offsetX": 63.45454406738281,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:8080/job/AI%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/configure",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.dropdownList-container select"
+                ],
+                [
+                    "xpath///*[@id=\"main-panel\"]/form/div[1]/section[2]/div[4]/div/div/div[2]/div[2]/div/div[1]/select"
+                ],
+                [
+                    "pierce/div.dropdownList-container select"
+                ]
+            ],
+            "offsetY": 17.386383056640625,
+            "offsetX": 42.8636474609375
+        },
+        {
+            "type": "change",
+            "value": "hello",
+            "selectors": [
+                [
+                    "div.dropdownList-container select"
+                ],
+                [
+                    "xpath///*[@id=\"main-panel\"]/form/div[1]/section[2]/div[4]/div/div/div[2]/div[2]/div/div[1]/select"
+                ],
+                [
+                    "pierce/div.dropdownList-container select"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Save"
+                ],
+                [
+                    "button.jenkins-submit-button"
+                ],
+                [
+                    "xpath///*[@id=\"bottom-sticker\"]/div/button[1]"
+                ],
+                [
+                    "pierce/button.jenkins-submit-button"
+                ],
+                [
+                    "text/Save"
+                ]
+            ],
+            "offsetY": 9.8096923828125,
+            "offsetX": 50.005706787109375,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:8080/job/AI%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "aria/ビルド実行",
+                "#tasks > div:nth-of-type(3) a",
+                "xpath///*[@id=\"tasks\"]/div[3]/span/a",
+                "pierce/#tasks > div:nth-of-type(3) a"
+            ],
+            "offsetX": 132.1988639831543,
+            "offsetY": 19.318191528320312
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(5) span:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"tasks\"]/div[5]/span/a/span[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) span:nth-of-type(2)"
+                ],
+                [
+                    "text/Pipelineの削除"
+                ]
+            ],
+            "offsetY": 14.917633056640625,
+            "offsetX": 69.61931991577148
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Yes"
+                ],
+                [
+                    "button.jenkins-button--primary"
+                ],
+                [
+                    "xpath///*[@id=\"jenkins\"]/dialog[2]/div[3]/button[1]"
+                ],
+                [
+                    "pierce/button.jenkins-button--primary"
+                ],
+                [
+                    "text/Yes"
+                ]
+            ],
+            "offsetY": 27.36932373046875,
+            "offsetX": 49.06817626953125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:8080/",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
